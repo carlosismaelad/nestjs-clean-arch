@@ -28,7 +28,7 @@ export class UserRules {
 
   @IsDate()
   @IsOptional()
-  ccreatedAt?: Date
+  createdAt?: Date
 
   constructor({ name, email, password, createdAt }: UserProps) {
     Object.assign(this, { name, email, password, createdAt })
